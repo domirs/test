@@ -3,7 +3,6 @@ name: Deploy static content to Pages
 
 on:
   pull_request:
-    types: [opened, reopened, synchronized]
     branches: [main]
 
   # Allows you to run this workflow manually from the Actions tab
