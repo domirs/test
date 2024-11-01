@@ -23,7 +23,7 @@ concurrency:
 jobs:
   deploy:
     environment:
-      name: ${{ github.ref_name }}
+      name: ${{ github.ref }}
       url: https://www.google.ch
     runs-on: ubuntu-latest
     steps:
